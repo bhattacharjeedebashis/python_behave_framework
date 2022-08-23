@@ -1,0 +1,17 @@
+<testsuite errors="0" failures="0" hostname="DESKTOP-DLR3QRI" name="feature_files.angular.Test Angular Web page" skipped="0" tests="1" time="2.925228" timestamp="2022-08-20T11:34:35.224784"><testcase classname="feature_files.angular.Test Angular Web page" name="To verify functionality on a simple angular JS page" status="passed" time="2.925228"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @angular @demo
+  Scenario: To verify functionality on a simple angular JS page
+    Given the user is on "http://juliemr.github.io/protractor-demo/" ... passed in 0.436s
+    When user enters "2" as "first" operand ... passed in 0.094s
+    When user selects "%" as operator ... passed in 0.160s
+    When user enters "2" as "second" operand ... passed in 0.060s
+    When user clicks on go button ... passed in 2.097s
+    Then correct expression and result should be displayed ... passed in 0.078s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

@@ -1,0 +1,17 @@
+behave==1.2.6
+selenium==3.141.0
+msedge-selenium-tools==3.141.3
+pandas==1.1.5
+openpyxl==3.0.9
+pywinauto==0.6.8
+axe-selenium-python==2.1.6
+webdriver-manager==3.8.2
+mysql-connector==2.2.9
+PyMySQL==1.0.2
+cx-Oracle==8.1.0
+psycopg2==2.8.6
+vertica_python==1.1.1
+pytest-bdd==6.0.1
+sttable==0.0.1
+allure-behave==2.9.45
+behave-html-formatter==0.9.10

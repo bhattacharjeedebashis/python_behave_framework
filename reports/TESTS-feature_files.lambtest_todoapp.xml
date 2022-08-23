@@ -1,0 +1,16 @@
+<testsuite errors="0" failures="0" hostname="DESKTOP-DLR3QRI" name="feature_files.lambtest_todoapp.Test to add item" skipped="0" tests="1" time="2.852485" timestamp="2022-08-20T11:34:38.077269"><testcase classname="feature_files.lambtest_todoapp.Test to add item" name="Test Advance boy" status="passed" time="2.852485"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @sample @demo
+  Scenario: Test Advance boy
+    Given I go to 4davanceboy to add item ... passed in 0.342s
+    Then I Click on first checkbox and second checkbox ... passed in 0.205s
+    When I enter item "Yey, Let's add it to list" to add ... passed in 0.200s
+    When I click add button ... passed in 0.053s
+    Then I should verify the added item ... passed in 2.053s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
